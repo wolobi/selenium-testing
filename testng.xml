@@ -1,0 +1,7 @@
+<suite name="SuiteOne">
+    <test name="Test">
+        <classes>
+            <class name="com.wolobi.selenium.testing.SeleniumTesting" />
+        </classes>
+    </test>
+</suite>
