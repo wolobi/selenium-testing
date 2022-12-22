@@ -23,7 +23,7 @@ public class SeleniumTesting {
 //    }
     @Test
     public void jenkinsTest() {
-        System.setProperty("webdriver.chrome.driver", "G:\\cursos\\jenkins\\selenium-drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "selenium-drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.amazon.es/");
